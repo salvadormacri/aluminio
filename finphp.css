@@ -1,0 +1,59 @@
+body{
+    background-color: #781611;
+    padding: 0px;
+    margin: 0px;
+}
+.mensaje{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: flex
+}
+.mensaje img{
+    width: 150px;
+    height: 150px;
+    margin: 0px;
+    
+}
+.aviso{
+    align-items: center;
+    width: 75%;
+    margin: auto;
+    padding: 10px;
+}
+.aviso hr{
+    width: 5px;
+    border:0px;
+    background-color: #781611;
+    height: 125px;
+}
+.aviso h2{
+    font-family: 'Tw Cen Mt';
+    color: #781611;
+    font-weight: bolder;
+    font-size: 38px;
+}
+.aviso h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 0px;
+}
+.links img{
+    width: 50px;
+    height: 50px;
+    margin: 0px;
+}
+.tablink{
+    align-items: center;
+    width: 20%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 50px;
+}
+.tablink hr{
+    width: 5px;
+    border:0px;
+    background-color: white;
+    height: 50px; 
+}

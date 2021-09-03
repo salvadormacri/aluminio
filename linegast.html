@@ -1,0 +1,383 @@
+<html>
+    <head>
+      <link href="http://fonts.cdnfonts.com/css/segoe-ui-4" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="inicio.css">
+      <link href="http://fonts.cdnfonts.com/css/tw-cen-mt" rel="stylesheet">
+      <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="estilos.css">
+  <link rel="stylesheet" type="text/css" href="productos.css">
+      </head>
+    <body>
+       <div class="top">
+
+
+
+
+  
+ 
+   
+ 
+
+ 
+
+
+             <nav>
+                 <ul>
+                   <table>
+                   
+                    <td>
+                   <li> <a href="mailto:consultas@aluminioreal.com.ar"><img  class="contactimg" src="correo color.png" width="25px" height="25px"><i> ENVIAR MAIL</i></a> </li>
+                   </td>
+                   <td>
+                   <li>  <a href="tel:+541148425585"><img class="contactimg" src="phone color.png" width="25px" height="25px"><i> 4842-5585 | </i></a> <a href="tel:+541148422380"> <i> 4842-2380 </i></a>  </li> 
+                  </td>
+                </tr>
+                <table>
+                  <tr>
+                    <td>
+                   <li><a href="https://www.instagram.com/real.aluminio/"><img class="contactimg" src="intagram.png" width="25px" height="25px"></a></li>
+                   </td>
+                   <td>
+                   <li><a href="https://www.facebook.com/aluminioreal/"><img class="contactimg" src="face.png" width="25px" height="25px"></a></li>
+                  </td>
+                </tr>
+                </table>
+                </ul>
+             </nav>
+             
+            
+
+
+      </div>
+      <div>
+        <nav class="pmenu">
+        <table>
+          <tr>
+            <td>
+              <div id="sidebar" class="sidebar">
+                <a href="#" class="boton-cerrar" onclick="ocultar()">&times;</a>
+                <ul class="pmenu">
+                 <li><a href="inicio.html">Home</a></li>
+                 <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="ubicacion.html">Ubicación</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+                </div>
+                <div id="contenido">
+                <a id="abrir" class="abrir-cerrar" href="javascript:void(0)" onclick="mostrar()"><img src="menu.png" width="40px" height="50px"></a>
+                </div>
+                <script>
+                function mostrar() {
+                    document.getElementById("sidebar").style.width = "200px";
+                    document.getElementById("contenido").style.marginLeft = "200px";
+                    document.getElementById("abrir").style.display = "none";
+                    document.getElementById("cerrar").style.display = "none";
+                }
+                
+                function ocultar() {
+                    document.getElementById("sidebar").style.width = "0";
+                    document.getElementById("contenido").style.marginLeft = "0";
+                    document.getElementById("abrir").style.display = "inline";
+                    document.getElementById("cerrar").style.display = "none";
+                }
+                </script>
+                <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"66da98f40ae0571e","version":"2021.6.0","r":1,"token":"f0aa520dc035432cb9fe5438c4f03b8b","si":10}'></script>
+                
+           
+              </td>
+              <td>
+                <a align="left" href="inicio.html"><img src="reallogonuevo.jpg.png" width="60px" height="50" ><b>ALUMINIO REAL</b></a>
+              </td>
+            </tr>
+       <table>
+         <tr>
+           <td>
+          <a href="sesion.html"> <i> Log In | </i></a> <a href="crear.html"> <i> Sing Up</i></a>
+        </td>
+      </tr>
+      </table> 
+      </table>
+      </nav>
+      </div>
+      <div>
+        <br>  
+        <br>
+      <div class="contenedor">
+      <div class="slider-contenedor">
+          <section class="contenido-slider">
+              <div>
+                  <h2>Olla Gastronomica</h2>
+                  <form action="selecciongast.php">
+                    <button name="olla">Ver producto</button>
+                </form>
+              </div>
+              <img src="linea GASTRONOMICA OLLA.jpg">
+
+          </section>
+          
+          <section class="contenido-slider">
+              <div>
+                  <h2 style="color: white;">Cacerola Gastronomica</h2>
+                
+                  <form action="selecciongast.php">
+                    <button name="cacerola">Ver producto</button>
+                </form>
+              </div>
+              <img src="linea GASTRONOMICA CACEROLA.jpg" >
+
+          </section>
+      <section class="contenido-slider">
+          <div>
+              <h2>Lebrillos </h2>
+              
+              <form action="selecciongast.php">
+                <button name="lebrillo">Ver producto</button>
+            </form>
+          </div>
+          <img src="linea GASTRONOMICA LEBRILLOS.jpg">
+
+      </section>
+      <section class="contenido-slider" style="background: brown;">
+        <div>
+            <h2 style="color:white;">Colapastas Gastronomico</h2>
+            <form action="selecciongast.php">
+              <button name="colapastas">Ver producto</button>
+          </form>
+        </div>
+        <img src="linea GASTRONOMICA colapastas.jpg">
+
+    </section>
+    <section class="contenido-slider" style="background:goldenrod;">
+      <div>
+          <h2 style="color:white;">Pava Gastronomica</h2>
+          <form action="selecciongast.php">
+            <button name="pava">Ver producto</button>
+        </form>
+      </div>
+      <img src="linea GASTRONOMICA PAVA.jpg">
+
+  </section>
+  <section class="contenido-slider" style="background:sandybrown;">
+    <div>
+        <h2 style="color:white;">Utensilios de Gastronomia </h2>
+        <form action="selecciongast.php">
+          <button name="utensilios">Ver producto</button>
+      </form>
+    </div>
+    <img src="linea GASTRONOMICA CUCHARON.jpg">
+
+</section>
+  
+<section class="contenido-slider">
+    <div>
+        <h2>Olla Gastronomica</h2>
+      
+        <form action="selecciongast.php">
+          <button name="olla">Ver producto</button>
+      </form>
+    </div>
+    <img src="linea GASTRONOMICA OLLA.jpg">
+
+</section>
+  </div>
+  </div>
+  <p class="solapas">  <a href="productos.html">Lineas de Productos</a> > <a href="linegast.html">Linea Gastronomica</a></p>
+  <script src="main.js"></script>
+        <h1  align=center>
+          Linea Gastronomica
+        </h1>
+        <h4 align=center>
+          Encuentre aqui todos nuestros productos de nuestra Linea Gastronomica.
+        </h4>
+        <hr class="firtsline">
+      </div>
+      <div class="buscador">
+        <table class="busbox">
+          <tr >
+            <td >
+            <img src="lupablanca.png" width="30px" height="30px">
+          </td>
+          <td style="height: 100%;width: 100%;">
+             <input type="search" class="box" placeholder="Search...">
+          </td>
+          </tr>
+     </table> 
+    </div>
+  
+<nav class="navegador">
+<ul>
+  <li>
+    <table class="navtable">
+      <tr>
+        <td>
+           <img src="linea GASTRONOMICA OLLA.jpg" width="100%"> 
+        </td>
+      </tr>
+ <tr>
+   <td style="padding-top: 25px;padding-left: 10px;padding-right: 10px;border:solid;border-top: none;border-bottom-left-radius:20px ;border-bottom-right-radius:20px ;border-color: gainsboro;">
+     
+  <h3>Ollas Gastronomicas</h3>
+  <form action="selecciongast.php">
+    <button name="olla">Ver producto</button>
+</form>
+ </td>
+</tr>
+  </table>
+  </li>
+  <li>
+    <table class="navtable" >
+      <tr>
+        <td>
+           <img src="linea GASTRONOMICA CACEROLA.jpg" width="100%"> 
+        </td>
+      </tr>
+ <tr>
+   <td style="padding-top: 25px;padding-left: 10px;padding-right: 10px;border:solid;border-top: none;border-bottom-left-radius:20px ;border-bottom-right-radius:20px ;border-color: gainsboro;">
+   
+     <h3>Cacerolas Gastronomicas</h3>
+     <form action="selecciongast.php">
+      <button name="cacerola">Ver producto</button>
+  </form>
+ </td>
+</tr>
+  </table>
+  </li>
+  <li>
+    <table class="navtable" >
+      <tr>
+        <td>
+           <img src="linea GASTRONOMICA LEBRILLOS.jpg" width="100%"> 
+        </td>
+      </tr>
+ <tr>
+   <td style="padding-top: 25px;padding-left: 10px;padding-right: 10px;border:solid;border-top: none;border-bottom-left-radius:20px ;border-bottom-right-radius:20px ;border-color: gainsboro;">
+     <h3>Lebrillos</h3>
+     <form action="selecciongast.php">
+      <button name="lebrillo">Ver producto</button>
+  </form>
+ </td>
+</tr>
+  </table>
+  </li>
+</ul>
+</nav>
+<br>
+<nav class="navegador">
+  <ul>
+    <li>
+      <table class="navtable">
+        <tr>
+          <td>
+             <img src="linea GASTRONOMICA colapastas.jpg" width="100%"> 
+          </td>
+        </tr>
+   <tr>
+     <td style="padding-top: 25px;padding-left: 10px;padding-right: 10px;border:solid;border-top: none;border-bottom-left-radius:20px ;border-bottom-right-radius:20px ;border-color: gainsboro;">
+       <h3>Colapastas Gastronomicos</h3>
+       <form action="selecciongast.php">
+        <button name="colapastas">Ver producto</button>
+    </form>
+   </td>
+  </tr>
+    </table>
+    </li>
+    <li>
+      <table class="navtable" >
+        <tr>
+          <td>
+             <img src="linea GASTRONOMICA PAVA.jpg" width="100%"> 
+          </td>
+        </tr>
+   <tr>
+     <td style="padding-top: 25px;padding-left: 10px;padding-right: 10px;border:solid;border-top: none;border-bottom-left-radius:20px ;border-bottom-right-radius:20px ;border-color: gainsboro;">
+       <h3>Pavas Gastronomicas</h3>
+       <form action="selecciongast.php">
+        <button name="pava">Ver producto</button>
+    </form>
+   </td>
+  </tr>
+    </table>
+    </li>
+    <li>
+      <table class="navtable" >
+        <tr>
+          <td>
+             <img src="linea GASTRONOMICA CUCHARON.jpg" width="100%"> 
+          </td>
+        </tr>
+   <tr>
+     <td style="padding-top: 25px;padding-left: 10px;padding-right: 10px;border:solid;border-top: none;border-bottom-left-radius:20px ;border-bottom-right-radius:20px ;border-color: gainsboro;">
+       <h3>Utensilios Gastronomicos</h3>
+       <form action="selecciongast.php">
+        <button name="utensilios">Ver producto</button>
+    </form>
+   </td>
+  </tr>
+    </table>
+    </li>
+  </ul>
+  </nav>
+
+<br>
+      <div class="bottom" align="end">
+        <table>
+          <tr>
+            <td>
+        <p class="pie" align="left">Contacto</p>
+       </td>
+      </tr>
+      </table>
+        <ul class="titulospie">
+          <li>  <p class="cont">Correos</p> </li>
+          <li> <p class="cont">Telefonos</p></li> 
+          <li> <p class="cont">Ubicacion</p></li> 
+          </ul>
+          <nav class="linkscont">
+            <ul align="left">
+            <table>
+            <tr>
+              <td>
+             <li> <a class="footlink" href="mailto:ventas@aluminio.com.ar"><img src="correo.png" width="25px" height="25px" ><i>ventas@aluminioreal.com.ar</i></a></li>
+              </td> 
+            </tr>
+            <tr>
+              <td>
+            <li><a class="footlink" href="mailto:pedidos@aluminio.com.ar"><img src="correo.png" width="25px" height="25px" ><i>pedidos@aluminioreal.com.ar</i></a></li>
+            </td>
+
+            </tr>
+          </table> 
+          <table>
+            <tr>
+              <td>
+             <li> <a href="tel:+541148425585"><img src="phone.png" width="25px" height="25px" ><i>+541148425585</i></a></li> 
+           </td>
+           </tr>  
+              <tr>
+              <td>
+             <li><a href="tel:+541148422380"><img src="phone.png" width="25px" height="25px" ><i>+541148422380</i></a></li>
+            </td>
+            </tr>
+            
+          </table> 
+            
+              <li class="ubicacion"><img src="ubicacion.png" width="25px" height="25px"><i> Betharram 951- Villa Bosch- <br> B1682BNG- Buenos Aires- Argentina </i></li>
+         
+        
+            
+            
+
+            </ul>
+          </nav>
+      </div>
+      <footer>
+    <div class="copy">
+      <p class="copyright">© Aluminio Real S.A 2020 </p>
+      </div>
+    </footer>
+    </body>  
+</html>

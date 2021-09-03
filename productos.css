@@ -1,0 +1,158 @@
+body{
+    margin:0;
+    padding: 0px;
+}
+.buscador{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 50px;
+    border: 1px;
+    border-radius: 50px;
+    background-color:burlywood;
+    display: flex;
+}
+.busbox{
+margin:auto;
+display:block;
+position: relative;
+height: 100%;
+width: 90%;
+padding: 0px;
+}
+.box{
+    height: 43px;
+    width: 100%;
+    background-color: burlywood;
+    border: none;
+}
+.navegador ul {
+    list-style: none;
+    background: white;
+  }
+  .navegador {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+
+  
+  
+}
+  .navegador ul  {
+    list-style: none;
+    background: white;
+    margin-left:8%;
+    padding: 0px;
+    display: inline-block;
+  }
+ 
+ 
+  @media screen and (min-width: 480px) {
+    .navegador ul {
+      display:inline-flex;
+     justify-content:space-between;
+    }
+  }
+  .navtable{
+border: 1px ;
+border-color: lightcyan;
+display: block;
+width:75%;
+  }
+
+  .navtable img{
+      border-top-left-radius: 20px;
+      border-top-right-radius:20px ;
+  }
+  .navtable h4{
+      margin: 0;
+      font-size: 14px;
+      text-align: justify;
+      padding-bottom: 15px;
+  }
+  .navtabl{
+    border: 1px ;
+    border-color: lightcyan;
+    width: 39%;
+
+      }
+    
+      .navtabl img{
+          border-top-left-radius: 20px;
+          border-top-right-radius:20px ;
+      }
+      .navtabl h4{
+          margin: 0;
+          font-size: 14px;
+          text-align: justify;
+          padding-bottom: 15px;
+      }
+      .navegado ul {
+        list-style: none;
+        background: white;
+      }
+      .navegado {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      width: auto;
+    
+      
+      
+    }
+      .navegado ul  {
+        list-style: none;
+        background: white;
+        margin-left:8%;
+        display: inline-block;
+        width: 100%;
+      }
+     
+     
+      @media screen and (min-width: 480px) {
+        .navegado ul {
+          display:inline-flex;
+         justify-content:space-between;
+        }
+      }
+      .solapas{
+          margin-left: 20px;
+          font-family:'Tw Cen MT';
+          color: #781611;
+          font-weight: bolder;
+          font-size: 30px;
+
+      }
+      .solapas a{
+          text-decoration: none;
+          color:#781611
+      }
+      .solapas a:hover{
+          text-decoration: underline;
+      }
+      .solapas a :visited{
+          text-decoration: none;
+          color: #781611;
+      }
+      .navtable h3{
+        color: #781611;
+        font-weight: bolder;
+      }
+      button{
+        color: #fff;
+        background: #781611;
+        width: 150px;
+        display: absolute;
+        padding: 15px;
+        text-align: center;
+        border-radius: 15px;
+        margin-top: 10px;
+        text-decoration: none;
+        font-family: 'roboto';
+        padding: 20px;
+        border: none;
+    }
+    

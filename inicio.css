@@ -1,0 +1,480 @@
+body{
+  margin: 0px;
+}
+.top{
+    padding-top: 0%;
+}
+.contacttop{
+    padding-right: 0%;
+}
+.pietable{
+    display: table;
+    border-spacing: 0px;
+    background-color: white;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: white;
+  }
+  nav {
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+  nav ul  {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: white;
+  }
+  nav li  a {
+    color:#781611;
+    text-decoration: none;
+  }
+ 
+  a i{
+    vertical-align: top;
+    line-height: 32px;
+  }
+  nav li a:hover {
+    background: white;
+    color:#781611;
+  }
+  .contactimg{
+      padding: top 10px;
+  }
+  @media screen and (min-width: 480px) {
+    nav ul {
+      display: flex;
+     justify-content:space-between;
+    }
+  }
+  .nombre{
+    font-family: 'Tw Cen MT condensed extra bold' ;
+  }
+  .pmenu{
+    background-color: #781611;
+    width: 100%;
+    height: 50px;
+
+  }
+
+  a b{
+    font-size: 30px;
+    vertical-align: top;
+    line-height: 50px;
+  }
+  .pmenu {
+  padding: 0;
+  font-family: 'impact';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+  
+  .pmenu a i{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .pmenu  a {
+    color:white;
+    text-decoration: none;
+    
+  }
+ .pmenu a:hover {
+    color:white;
+  }
+  .contactimg{
+      padding: top 10px;
+  }
+  @media screen and (min-width: 480px) {
+   .pmenu  {
+      display:flex;
+     justify-content:space-between;
+    }
+  }
+
+.container{
+  width: 100%;
+
+}
+
+
+ul.slider{
+  position: relative;
+  height: 300px;
+ display:block;
+}
+
+ul.slider li {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+    background:#fff;
+    display:flex;
+}
+
+ul.slider li img{
+  width: 70%;
+  height: 300px;
+}
+
+.deslizante{
+  background-color: #781611;
+  width: 30%;
+  display: block;
+ 
+}
+
+ul.slider li:first-child {
+    opacity: 1; /*Mostramos el primer <li>*/
+}
+
+ul.slider li:target {
+    opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+}
+
+.menu{
+  text-align: center;
+  margin: 5px;
+}
+
+.menu li{
+  display: inline-block;
+  text-align: center;
+}
+
+
+  h1{
+    font-family:'Tw Cen MT' ;
+    font-size: 60px;
+    font-weight:bold;
+    color: #781611;
+  }
+  h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    color: black;
+    margin-right: 250px;
+    margin-left: 250px;
+  }
+  .firtsline{
+    background-color: #781611;
+    width: 400px;
+    height: 5px;
+    border:none;
+    border-radius:1px ;
+
+  }
+ .ullin{
+   padding: 0;
+   margin: 0px;
+   text-indent: 0px;
+   list-style: none;
+   list-style-position: inside;
+ }
+  @media screen and (min-width: 40px) {
+    .ullin  {
+       display:flex;
+      justify-content:flex-start;
+     }
+   }
+   .sidebar {
+    position: fixed;
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #781611;
+    overflow-x: hidden;
+    transition: 0.4s;
+    box-sizing:border-box;
+}
+
+.sidebar .boton-cerrar {
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    font-size: 2rem;
+    display: block;
+    padding: 0;
+    line-height: 1.5rem;
+    margin: 0;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+}
+
+.sidebar ul, .sidebar li{
+    margin:0;
+    padding:0;
+    list-style:none inside;
+}
+
+.sidebar ul {
+    margin: 4rem auto;
+    display: block;
+    width: 80%;
+    min-width:200px;
+
+}
+
+.sidebar a {
+    display: block;
+    font-size: 180%;
+    line-height: 80px;
+    color:white;
+    text-decoration:underline;
+    background-color: #781611;
+    text-align: center;
+    
+}
+
+.sidebar a:hover{
+    color:#781611;
+    background-color:white;
+    text-decoration: none;
+
+}
+
+
+
+#contenido {
+    transition: margin-left .4s;
+
+}
+
+.abrir-cerrar {
+    color: #2E88C7;
+    font-size:1rem;   
+}
+
+#abrir {
+  margin: 0;  
+}
+#cerrar {
+    display:none;
+}
+  .noticias{
+    border:white ;
+    text-indent: 0px;
+    margin: auto
+  }
+  .none{
+    text-decoration: none;
+  }
+  .noticias td{
+    background-color: #781611;
+    border-collapse: separate;
+    border: white 20px solid;
+  }
+  .titnot{
+    color: #ffffff;
+    font-family:'Tw Cen MT';
+    font-weight: bolder;
+    font-size: 35px;
+    margin-left: 12px;
+    margin-top: 20px;
+    line-height: 0px;
+  }
+  .titnot b{
+vertical-align: text-top;
+  }
+  .linnot{
+    background-color: #ffffff;
+    height: 4px;
+    border: none;
+    border-radius: 1px;
+  }
+  .linnott{
+    background-color:none;
+    height: 4px;
+    border: none;
+    border-radius: 1px;
+  }
+  .desnot{
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    margin-left: 12px;
+  }
+  .notifont{
+    color: #ffffff;
+    margin-left: 12px;
+    text-decoration: none;
+    font-family: 'Tw Cen MT';
+    font-weight: bolder;
+  }
+  .notifont:hover{
+   text-decoration:underline;
+  }
+  h2{
+    font-family:'Tw Cen MT' ;
+    font-size: 50px;
+    font-weight:bold;
+    color: #781611;
+  }
+  .secondline{
+    background-color: #781611;
+    width: 400px;
+    height: 3px;
+    border:none;
+    border-radius:1px ;
+  }
+  .redes{
+    margin: auto;
+  }
+  .bottom{
+    background-color:#282828 ;
+    border:none;
+    padding:none;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+  .pie{
+    color: white;
+  }
+  .pietable{
+    border:none
+  }
+  .cont{
+    font-family:'Tw Cen MT' ;
+    font-size: 30px;
+    font-weight:bold;
+    color: #ffffff;
+    background-color: #282828;
+    margin: auto;
+  }
+  .footlink{
+    background-color: #282828;
+    color: #ffffff;
+  }
+ 
+.pie{
+  font-family:'Tw Cen MT' ;
+    font-size: 50px;
+    font-weight:bold;
+    color: #ffffff;
+    margin: 0px;
+}
+  .linkscont {
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+  .linkscont ul  {
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+    background: #282828;
+  }
+  .linkscont li  a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    
+  }
+  .linkscont li a:hover {
+    background: #282828;
+    color:white;
+  }
+  .contactimg{
+      padding: top 10px;
+  }
+  @media screen and (min-width: 480px) {
+    .linkscont ul {
+      display:flex;
+     justify-content:space-between;
+    }
+ 
+  }
+  @media screen and (min-width: 480px) {
+    .titulospie {
+      display:flex;
+     justify-content:space-between;
+    }
+  }
+.ubicacion{
+  color: #ffffff;
+}
+.titulospie  {
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+    background: #282828;
+  }
+footer{
+  height: 50px;
+  width: 100%;
+  background-color: #781611;
+  position: relative;
+}
+.copyright{
+position:absolute;
+width: 100%;
+color: #ffffff;
+bottom: 0;
+top: 0;
+text-align: center;
+line-height: 40px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: #781611;
+}
+.divform{
+  background-color:darksalmon;
+  margin: auto;
+  height: 500px;
+  width: 50%;
+  margin-bottom: 100px;
+  padding: 50px;
+  margin-top: 50px;
+}
+form input, select ,textarea{
+  display: block;
+  font-family: "Roboto", sans-serif;
+background: #f2e8e8;
+width: 85%;
+border: 0;
+padding: 15px;
+box-sizing: border-box;
+font-size: 14px;
+outline:0px;
+margin: auto;
+}
+form button {
+  font-family: "Roboto", sans-serif;
+text-transform: uppercase;
+outline: 0;
+background: #781611;
+width: 100%;
+border: 0;
+padding: 15px;
+color: #FFFFFF;
+font-size: 14px;
+-webkit-transition: all 0.3 ease;
+transition: all 0.3 ease;
+cursor: pointer;
+}
+form button:hover,form button:active,form button:focus {
+background: #781630;
+}
+h3{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+line-height: 0px;
+}
+.texthistoria{
+  margin:auto;
+  text-align: justify;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 30px;
+  width: 50%;
+}
